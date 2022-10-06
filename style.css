@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: goldenrod;
+  text-align: center;
+  color: #fff;
+  padding: 30px;
+  font-family: "Open Sans", sans-serif;
+}
+.nav {
+  display: flex;
+  background-color: black;
+}
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 16px 20px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav a:hover {
+  background-color: grey;
+}
